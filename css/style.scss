@@ -1,0 +1,17 @@
+@import "customize";
+
+
+
+p{
+	color: red;
+	background-color: green;
+
+}
+h2{
+	color: red;
+	
+}
+.btn{
+	@extend %btn;
+	background-color: red;
+}

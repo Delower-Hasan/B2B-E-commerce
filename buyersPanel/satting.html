@@ -1,0 +1,266 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commarce</title>
+    <!-- fontAwesome  icon -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    
+    <header>
+     <div class="container-fluid top-navbar bg-darkB">
+         <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="../product.html">Product</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="buyersPanel/account.html">Buyers</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../supplierPanel/account.html">Exporter</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../buyer.html">News</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Articles</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Advartisment</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Derctory</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="social-link">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-google"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fas fa-phone-alt"></i></a>
+                        <div class="lang">
+                            <a href="" class="on">Eng</a>
+                            <a href="">Ban</a>
+                        </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+    <div class="coantiner-fluid">
+        <div class="container ">
+            <div class="row py-1 logo-area">
+                <div class="col-6">
+                    <a class="pt-0" href="../index.html"><img src="../image/logo/DHL_Express_logo.png" alt=""></a>
+                </div>
+                <div class="col-6 text-right ">
+                    <a href="#">Chat</a>
+                     <a href="../signup.html">LogIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </header>
+    
+    <div class="coantiner-fluid">
+        <div class="container p-0">
+            <div class="row m-0 mt-5">
+                  <div class="col-lg-3">
+                    <nav class="navbar navbar-expand-lg navbar-light p-0">
+                        <button class="navbar-toggler sidebar-btn" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="sidebar">
+                            <aside class="sidebar">
+                                <h4>Account</h4>
+                                <a href="account.html">My account <i class="fas fa-chevron-right"></i></a>
+                                <a href="facilities.html">Buyer's Facilities <i class="fas fa-chevron-right"></i></a>
+                                <a href="#">Favorites <i class="fas fa-chevron-right"></i></a>
+                                <a href="satting.html" class="active">Settings <i class="fas fa-chevron-right"></i></a>
+                                <a href="postProduct.html">Post Buying Request <i class="fas fa-chevron-right"></i></a>
+                                <a href="management.html">Product Management <i class="fas fa-chevron-right"></i></a>
+                                <a href="company.html">Company Profile <i class="fas fa-chevron-right"></i></a>
+                            </aside>
+                        </div>
+                      </nav>
+                  </div>
+                  <div class="col-lg-9 content-wrap">
+                    <span id="btn-sidebar"><i class="fas fa-ellipsis-v"></i></span>
+                    <h3>settings / Change Details</h3>
+                    <div class="content p-4 border-bottom">
+                        <form action="">
+                            <div class="form-group">
+                                <span class="text-success mr-4">Email:</span>Dummy@email.com
+                            </div>
+                            <div class="form-group">
+                                <span class="text-success mr-4">Phone no:</span>+088 0100000000
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input class="form-control w60" type="text" name="name" value="dummy name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <strong style="display: block;">Add Personal Photo / Company Logo</strong>
+                               <div class="img_up mt-3 view">
+                                   <div class="row">
+                                       <div class="col-4">
+                                           <img id="img-load" width="100%" src="../image/dummy.jpg" alt="">
+                                       </div>
+                                       <div class="col-8">
+                                        <label for="img" class="btn btn-success py-3">
+                                            <input type="file" style="display: none;" name="iamge" 
+                                            onchange="document.getElementById('img-load').src = window.URL.createObjectURL(this.files[0])" id="img">
+                                            Add a photo
+                                        </label>
+                                       </div>
+                                   </div>
+                                <div class="toltip">
+                                    <h6>Use Real Photo</h6>
+                                    <small> dolor brunch. Food truck quinoadolor brunch.</small>
+                                    <img class="m-auto" style="display: block;" src="../image/warning.png" alt="">
+                                    <small>Image must be PNG or JPG and (max size 5MB). Don't uploade images with watermarks </small>
+                                </div>
+                               </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn bg-ddd">Update details</button>
+                            </div>
+                        </form>
+                        <form action="">
+                            <h6>Change password</h6>
+                            <div class="form-group">
+                                <input type="password" name="password" class="form-control w60" placeholder="New password" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="confirm-password" class="form-control w60" placeholder="Confirm new password" required>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn bg-ddd">Change password</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-group mt-3">
+                        <a href="#" class="btn bg-or px-4">Log Out</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+      <footer>    
+    <section class="footer-top mt-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-widget">
+                            <div class="row">
+                            <!-- footer colums start -->
+                                <div class="col-md-3 col-sm-6 mb-30">
+                                    <div class="footer-title">
+                                        <h4>Learn More</h4>
+                                        <ul class="learn-more">
+                                            <li><a href="#">How to sell first</a></li>
+                                            <li><a href="#">Doorstap Delivery on</a></li>
+                                            <li><a href="#">MemberShip</a></li>
+                                            <li><a href="#">Banner Advertisement</a></li>
+                                            <li><a href="#">Promote your Add</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- footer colums ends -->
+                            <!-- footer colums start -->
+                               <div class="col-md-3 col-sm-6 mb-30">
+                                    <div class="footer-title">
+                                        <h4>Learn More</h4>
+                                        <ul class="learn-more">
+                                            <li><a href="#">How to sell first</a></li>
+                                            <li><a href="#">Doorstap Delivery on</a></li>
+                                            <li><a href="#">MemberShip</a></li>
+                                            <li><a href="#">Banner Advertisement</a></li>
+                                            <li><a href="#">Promote your Add</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- footer colums ends -->
+                            <!-- footer colums start -->
+                                  <div class="col-md-3 col-sm-6">
+                                    <div class="footer-title">
+                                        <h4>Learn More</h4>
+                                        <ul class="learn-more">
+                                            <li><a href="#">How to sell first</a></li>
+                                            <li><a href="#">Doorstap Delivery on</a></li>
+                                            <li><a href="#">MemberShip</a></li>
+                                            <li><a href="#">Banner Advertisement</a></li>
+                                            <li><a href="#">Promote your Add</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- footer colums ends -->
+                            <!-- footer colums start -->
+                                  <div class="col-md-3 col-sm-6">
+                                    <div class="footer-title">
+                                        <h4>Learn More</h4>
+                                        <ul class="learn-more">
+                                            <li><a href="#">How to sell first</a></li>
+                                            <li><a href="#">Doorstap Delivery on</a></li>
+                                            <li><a href="#">MemberShip</a></li>
+                                            <li><a href="#">Banner Advertisement</a></li>
+                                            <li><a href="#">Promote your Add</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- footer colums ends -->
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- footer bottom starts -->
+        <section class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-sm-6">
+                         <p>Copyright &copy; Satsite Technology<p>
+                    </div>
+                    <div class="col-md-3 offset-md-5 col-sm-6">
+                         <div class="footer-wrap">
+                        <div class="footer-logo">
+                             <img src="../img/logo/logo.jpg" alt="">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     <!-- footer bottom ends -->
+    </footer>
+
+    <!-- J-quary link -->
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap link -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <!-- Custom js -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

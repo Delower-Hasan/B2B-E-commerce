@@ -1,0 +1,518 @@
+/* ***Responsive media query*** */
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+ 
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    ul.manu li a {
+        font-size: 15px;
+        padding: 13px 11px;
+    }
+    .search-form {
+        padding-right: 107px;
+    }
+
+    .divitional-jobs h2 {
+        font-size: 23px;
+    }
+    .quick-lins h2 {
+        font-size: 22px;
+    }
+    .divitional-jobs li a {
+        font-size: 13px;
+        padding: 5px 5px;
+    }
+
+    .jobs-section {
+        margin-top: 30px;
+    }
+    .quick-left {
+        margin-right: 15px;
+    }
+    .quick-lins li {
+        margin-bottom: 5px;
+    }
+    .quick-lins li a {
+        font-size: 14px;
+    }
+    .quick-lins li:before {
+        font-size: 14px;
+    }
+
+    .icon span {
+        font-size: 20px;
+        padding: 15px 25px;
+    }
+    .counter-text h3 {
+        font-size: 23px; 
+        padding: 8px;
+    }
+    .search-section {
+        margin-top: 13%;
+    }
+    .couner-section {
+        margin-top: 18px;
+    }
+    .post-info {
+        padding: 20px 10px;
+    }
+    .single-catagory h4 {
+        font-size: 28px;
+    }
+    .single-catagory {
+        padding-top: 10px;
+    }
+    .cat_info p {
+        font-size: 16px;
+    }
+    a.cat_icon {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .post-info h3 {
+        font-size: 23px;
+    }
+    .post-info h4 {
+        font-size: 18px;
+    }
+    a.btn.btn-sell {
+        font-size: 18px;
+    }
+    .member-info h5 {
+        font-size: 20px;
+    }
+    p.dropdown-toggle {
+        font-size: 14px;
+    }
+    .member-info {
+        padding-left: 10px;
+    }
+    .member-log img {
+        height: 80px;
+        width: 80px;
+    }
+    .members {
+        padding-left: 5px;
+        padding-right: 15px;
+    }
+    .footer-bottom p {
+        font-size: 15px;
+    }
+    .post-add-text {
+        padding: 0 47px;
+    }
+    a.btn.btn-fb {
+        padding: 15px 11px;
+        font-size: 14px;
+    }
+    .signup {
+        padding: 0px 50px;
+    }
+    .em-signup p {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+    .signup h5 {
+        margin: 15px 0px;
+        margin-top: 30px;
+    }
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    ul.manu {
+        padding: 0 0px;
+    }
+    ul.manu li:first-child a {
+        padding-left: 9px;
+    }
+    ul.manu li a {
+        font-size: 14px;
+        padding: 13px 0;
+        padding-right: 9px;
+    }
+    ul.social li {
+        margin-left: 14px;
+    }
+    ul.language li a.active {
+        padding: 5px 6px;
+   
+    }
+    ul.language li a {
+        font-size: 12px;
+        padding: 4px 5px;
+    }
+    .logo img {
+        width: 60%;
+        height: 80px;
+    }
+    .search-form {
+        padding-top: 12px;
+        padding-left: 12px;
+        padding-right: 53px;
+        padding-bottom: 2px;
+    }
+    .form-btn button {
+        padding: 15px 11px;
+    }
+    .title h2 {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+    .select-icon i.fas.fa-briefcase {
+        left: 10px;
+    }
+    .search-form .form-control {
+        padding: .375rem 1.75rem;
+    }
+
+    .hero-area {
+        height: 438px;
+    }
+    .title h2 {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+    .icon span {
+        font-size: 10px;
+        padding: 10px 12px;
+        
+    }
+    .counter-text h3 {
+        font-size: 19px;
+        padding: 8px;
+    }
+    .jobs-section {
+        padding: 9px;
+    }
+    .divitional-jobs h2 {
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+    .divitional-jobs li {
+      
+        margin-right: 8px;
+    }
+    .divitional-jobs li a {
+        font-size: 10px;
+        padding: 8px 10px;
+      
+    }
+    .quick-lins h2 {
+        font-size: 16px;
+        padding: 0;
+        padding-top: 10px;
+    }
+    .quick-lins li {
+        margin-left: 14px;
+    }
+    .quick-lins li a {
+        font-size: 12px;
+    }
+    .quick-left {
+        margin-right: 17px;
+    }
+    .quick-lins li:before {
+        left: -20px;
+        font-size: 11px;
+    }
+    .single-counter {
+        margin-top: 0;
+        margin-right: 10px;
+    }
+    .search-section {
+        margin-top: 18%;
+    }
+    .single-catagory {
+        padding-top: 10px;
+    }
+    a.cat_icon {
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+    .single-catagory h4 {
+        font-size: 25px;
+    }
+    .single-catagory p {
+        font-size: 12px;
+    }
+    .post-selling-section {
+        padding-top: 24px;
+    }
+    a.btn.btn-sell {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .post-info h3 {
+        font-size: 17px;
+    }
+    .post-info h4 {
+        font-size: 13px;
+    }
+    ul.clients {
+        margin-top: 14px;
+    }
+    ul.clients li {
+        padding: 4px 0;
+        padding-left: 10px;
+ 
+    }
+    ul.clients li:before {
+        font-size: 15px;
+    }
+    .global-list li a {
+        font-size: 17px;
+    }
+    a.more {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+    h2.global-title {
+        font-size: 25px;
+        width: 440px;
+        padding: 13px 0px;
+        padding-left: 14px;
+        
+    }
+    h2.global-title::before {
+        font-size: 27px;
+    }
+    .members {
+        padding: 23px 0;
+        padding-left: 5px;
+        padding-right: 4px;
+        
+    }
+    .member-log img {
+        height: 70px;
+        width: 70px;
+    }
+    .member-info {
+        padding-left: 10px;
+    }
+    .member-info h5 {
+        font-size: 20px;
+    }
+    p.dropdown-toggle {
+        font-size: 13px;
+    }
+
+    .footer-bottom p {
+        font-size: 15px;
+    }
+    ul.learn-more li a {
+        font-size: 14px;
+    }
+    .footer-title h4 {
+        margin-bottom: 15px;
+    }
+      /* login- section */
+
+      .adds li i {
+        margin-right: 9px;
+        font-size: 21px;
+    }
+    .adds li {
+        margin-bottom: 17px;
+    }
+    .post-add-text {
+        padding: 0;
+        padding-right: 15px;
+    }
+    .login-form {
+        padding: 0;
+    }
+    .post-add-text.login-line:after {
+        height: 185%;
+    }
+    /* signup form */
+    .signup {
+        padding: 0;
+    }
+    .signup h5 {
+        margin-top: 24px;
+    }
+    
+
+
+
+
+
+
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .divitional-jobs h2 {
+        font-size: 21px;
+        padding: 8px 0px;
+        margin-top: 10px;
+    }
+    .divitional-jobs li {
+        margin-bottom: 10px;
+        margin-right: 9px;
+    }
+    .divitional-jobs li a {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .quick-lins h2 {
+        font-size: 21px;
+        padding: 10px 0px;
+        padding-bottom: 3px;
+    }
+    .footer-title h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    ul.learn-more li a {
+        font-size: 14px;
+    }
+    .footer-wrap {
+        text-align: center;
+    }
+    .members {
+        padding-left: 7px;
+        padding-right: 5px;
+    }
+    .member-info {
+        padding-left: 8px;
+    }
+    .member-info h5 {
+        font-size: 17px;
+    }
+    p.dropdown-toggle {
+        font-size: 12px;
+    }
+    .global-list li a {
+        font-size: 15px;
+
+        padding: 3px 0;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 60px;
+    }
+    ul.clients li:before {
+        color: #595959;
+        font-size: 14px;
+    }
+    h2.global-title {
+        font-size: 25px;
+        width: 423px;
+        padding: 15px 0px;
+        padding-left: 7px;
+        margin-left: 33px;
+    }
+    h2.global-title::before {
+        font-size: 25px;
+    }
+    .post-selling-section {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .post-info h3 {
+        font-size: 20px;
+    }
+    .post-info h4 {
+        font-size: 16px;
+    }
+    a.btn.btn-sell {
+        font-size: 17px;
+        padding: 10px 20px;
+    }
+    a.cat_icon {
+        font-size: 45px;
+        margin-bottom: 8px;
+    }
+    .single-catagory h4 {
+        font-size: 28px;
+        margin-bottom: 4px;
+    }
+    .single-catagory span.counter {
+        font-size: 17px;
+    }
+    .cat_info p {
+        font-size: 15px;
+    }
+    .title h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .jobs-section {
+        padding-top: 2px;
+        margin-top: 7px;
+    }
+    .post-add-text {
+        padding: 0;
+        position: relative;
+    }
+    .adds li i {
+        margin-right: 8px;
+        font-size: 20px;
+    }
+    .adds li {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .add-heading-text p {
+        font-size: 16px;
+    }
+    .login-form {
+       padding: 0;
+    }
+    a.btn.btn-fb {
+        padding: 15px 14px;
+        font-size: 13px;
+    }
+    .signup h5 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    a.btn.btn-login {
+        width: 100%;
+    }
+    a.btn.btn-login {
+        padding: 14px 50px;
+    }
+    .post-add-text.login-line:after {
+        height: 177%;
+    }
+    .add-heading-text {
+        margin-bottom: 30px;
+    }
+    .signup {
+        padding: 0;
+    }
+    a.btn.btn-fb i {
+        margin-right: 10px;
+    }
+    a.btn.btn-email {
+        font-size: 14px;
+        padding: 14px 14px;
+    }
+    .search-section {
+        margin-top: 5%;
+    }
+    .search-form {
+        background: #444DAF;
+        padding-bottom: 13px;
+    }
+  
+
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .signup-form {
+        padding: 0px 0px;
+    }
+}
